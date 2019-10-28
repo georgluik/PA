@@ -1,35 +1,31 @@
 // Tsüklid
 
-// for tsükkel (üldtsükkel)
-
-
-let numbrid = [];
-// lisame nimekirja juhuslikud arvud
-for(let i = 0; i < 10; i++){
-    let arv = Math.floor(Math.random() * 10);
-    numbrid.push(arv);
+// while
+// ellkontrolliga tsükkel
+let arv = 1; // defineerime tsükli juhtimismuutja
+// paneme kontrolltingimuse paika
+while(number <= 10){
+    // sooritame tegevused
+    console.log(number);
+    // suurendame juhtimismuutuja väärtus
+    number++;
 }
 
 
-// kontrollime tulemust
-console.log(numbrid);
-// sorteerime kasvujärjekorras
-// numbrid.sort
-for (let kord = 0; kord < numbrid.length; kord++){
-    for(let i = 0; i < numbrid.length; i++){
-    let abi;
-    if(numbrid[i] > numbrid[i+1]){
-        abi = numbrid[i];
-        numbrid[i] = numbrid [i+1];
-        numbrid[i+1] = abi;
+//defineerime number
+let arv = 5;
+// defineerime jagaja algväärtus
+let jagaja = 2; 
+// suurendame jagaja väärtust nii kaua kuni jagamise jääk on 0
+while(arv % jagaja !=0){
+    jagaja++;
+}
+// kontrollime kas jagasime sama arvuga
+if(arv == jagaja){
+    console.log(arv + ' on algarv');
+    }    else {
+        console.log(arv + ' ei ole algarv');
     }
-  }
-}
-console.log(numbrid);
-
-
-
-
 
 
 
