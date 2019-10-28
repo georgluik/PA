@@ -39,3 +39,27 @@ const arvud = [1, 2, 3, 4, 5];
 console.log(arvud);
 arvud.push(6);
 console.log(arvud);
+
+
+// password 
+let kontoseis = '100';
+let passWord = prompt ('Your Password:');    
+if (passWord == '1234')
+    {alert('Correct! Teie kontol on' +kontoseis+ 'eurot');
+
+    } 
+    
+
+else {alert('Wrong password!')};
+
+
+//age
+let age = prompt ('How old are you?');
+if (age < 14){alert('Sorry, too young')}
+else {alert('Welcome')};
+
+
+
+
+
+    
