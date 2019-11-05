@@ -17,11 +17,12 @@ function ristkylikuPindala(pikkus, laius){
     // arvutame pindala
     let pindala = pikkus * laius;
     
-    // väljastame pindala
-    console.log('pindala = ' + pindala);
+    // väljastame pindala põhiprogrammi
+    return pindala;
 }
 
-ristkylikuPindala(15,5);
+rPindala = ristkylikuPindala(15, 5);
+console.log('pindala = ' + rPindala);
 
 
 
