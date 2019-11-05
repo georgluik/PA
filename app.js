@@ -10,9 +10,7 @@
 */
 // funktsioon mis arvutab ristküliku pindala
 function ristkylikuPindala(pikkus, laius){
-    // väljastame väärtused
-    console.log('pikkus = ' + pikkus);
-    console.log('laius = ' + laius);
+    
 
     // arvutame pindala
     let pindala = pikkus * laius;
@@ -21,9 +19,17 @@ function ristkylikuPindala(pikkus, laius){
     return pindala;
 }
 
-rPindala = ristkylikuPindala(15, 5);
-console.log('pindala = ' + rPindala);
+// funktsioon mis väljastab tulemuse ekraanil
+function valjasta(pikkus, laius){
+    // väljastame väärtused
+    console.log('pikkus = ' + pikkus);
+    console.log('laius = ' + laius);
+    // salvestame arvutatud pindala
+    let pindala = ristkylikuPindala(pikkus,laius);
+    // väljastame tulemus
+    console.log('pindala = ' + pindala);
+}
 
-
+valjasta(15, 5);
 
     
