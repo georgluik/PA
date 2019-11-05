@@ -7,11 +7,8 @@
     funktsioonisisu sisu 
     } 
 */
-function paarsuseKontroll(){
-
-
-    // defineerime suvaline täisarv
-    let arv = 7;
+function paarsuseKontroll(arv){
+    
     // arvutame jääk 2-ga jagamisel
     let jaak = arv % 2;
     // kui jaak on võrdne nulliga
@@ -27,6 +24,7 @@ function paarsuseKontroll(){
 
 
 // funktsiooni kasutamine
-paarsuseKontroll();
+paarsuseKontroll(11);
+paarsuseKontroll(8);
 
     
