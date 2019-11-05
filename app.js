@@ -20,7 +20,7 @@ function ristkylikuPindala(pikkus, laius){
 }
 
 // funktsioon mis väljastab tulemuse ekraanil
-function valjasta(pikkus, laius){
+function valjasta(pikkus = 0, laius = 0){
     // väljastame väärtused
     console.log('pikkus = ' + pikkus);
     console.log('laius = ' + laius);
@@ -30,6 +30,6 @@ function valjasta(pikkus, laius){
     console.log('pindala = ' + pindala);
 }
 
-valjasta(15, 5);
+valjasta(15, 6);
 
     
