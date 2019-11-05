@@ -8,28 +8,21 @@
     funktsioonisisu sisu 
     } 
 */
-function paarsuseKontroll(arv){
+// funktsioon mis arvutab ristküliku pindala
+function ristkylikuPindala(pikkus, laius){
+    // väljastame väärtused
+    console.log('pikkus = ' + pikkus);
+    console.log('laius = ' + laius);
+
+    // arvutame pindala
+    let pindala = pikkus * laius;
     
-    // arvutame jääk 2-ga jagamisel
-    let jaak = arv % 2;
-    // kui jaak on võrdne nulliga
-    if (jaak === 0){
-        // tegu on paaris arvuga
-        // tagastame antud väärtus
-        lause = arv + ' on paaris';
-    }
-    else {
-        // tegu on paaritu arvuga
-        lause = arv + ' on paaritu';
-    }
-    // tagastame antud väärtus
-    return lause;
+    // väljastame pindala
+    console.log('pindala = ' + pindala);
 }
 
+ristkylikuPindala(15,5);
 
-// funktsiooni kasutamine
-let paarsus;
-paarsus = paarsuseKontroll(5);
-console.log(paarsus);
+
 
     
