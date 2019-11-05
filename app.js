@@ -3,6 +3,7 @@
 // arvu paarsuse kontroll
 
 // funktsiooni defineerimine
+
 /* function funktsiooniNimi(param1, param2, .., paramN){
     funktsioonisisu sisu 
     } 
@@ -14,17 +15,21 @@ function paarsuseKontroll(arv){
     // kui jaak on võrdne nulliga
     if (jaak === 0){
         // tegu on paaris arvuga
-        console.log(arv + ' on paaris');
+        // tagastame antud väärtus
+        lause = arv + ' on paaris';
     }
     else {
         // tegu on paaritu arvuga
-        console.log(arv + ' on paaritu')
+        lause = arv + ' on paaritu';
     }
+    // tagastame antud väärtus
+    return lause;
 }
 
 
 // funktsiooni kasutamine
-paarsuseKontroll(11);
-paarsuseKontroll(8);
+let paarsus;
+paarsus = paarsuseKontroll(5);
+console.log(paarsus);
 
     
