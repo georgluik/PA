@@ -17,6 +17,16 @@ for(var a = 0; a < 10; a++){
     console.log('Tsükkel: ', a);
 }
 
+// funktsiooni põhine
+function testScope(){
+    var a = 4;
+    let b = 5;
+    const c = 6;
+    console.log('Funktsioon: ', a, b, c);
+}
+
+
+
 console.log('Globaalne: ', a, b, c);
 
      
